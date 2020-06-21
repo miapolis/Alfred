@@ -27,7 +27,7 @@ x86/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
-!config.json
+!Alfred/Alfred/bin/Debug/netcoreapp3.1/config.json
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
