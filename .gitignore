@@ -27,6 +27,7 @@ x86/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
+!config.json
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
