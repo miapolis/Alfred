@@ -22,8 +22,6 @@ namespace Alfred.Commands
 		public static ulong GeneralId { get; } = 688079932282241134; // FOR ALL OF THESE EDIT THE IDS TO MATCH YOUR GUILD AND CHANNEL
 		public static ulong BotSpamId { get; } = 575282625871347722;
 
-		public static ulong TestGeneralId { get; } = 723544396485754912;
-
 		public static ulong SpamId { get; } = 577460633092620288;
 		public static ulong HoglinSpamId { get; } = 680231622175752193;
 		public static ulong PingPollBotId { get; } = 711573841222303774;
@@ -395,6 +393,22 @@ namespace Alfred.Commands
 							return "Sorry, your session has expired.";
 						case 2:
 							return "Your session automatically ended.";
+					}
+
+					break;
+
+				case "om": 
+
+					var rndd = new Random();
+
+					var numd = rndc.Next(2);
+
+					switch (numc)
+					{
+						case 1:
+							return "Oh my!";
+						case 2:
+							return "Oh dear!";
 					}
 
 					break;
